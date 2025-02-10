@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: default
-  namespace: cicd
+  namespace: testcd
   labels:
     service: default
 spec:
